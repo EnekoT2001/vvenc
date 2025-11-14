@@ -54,7 +54,6 @@ jobs:
         with:
           name: ${{ matrix.config.name }}-binaries
           path: |
-            build/static
-            build/shared
+            bin/
           if-no-files-found: warn
           retention-days: 90
